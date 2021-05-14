@@ -1,6 +1,9 @@
 require 'htimlee/version'
+require 'htimlee/tokenizer'
+require 'htimlee/dom'
 
 module Htimlee
-  class Error < StandardError; end
-  # Your code goes here...
+  def self.new(text)
+    DOM.new(text)
+  end
 end

@@ -1,10 +1,20 @@
+require:
+  - ./lib/rubocop/cop/internal_affairs/debug
+
 inherit_from: .rubocop_todo.yml
 
 AllCops:
   Exclude:
     - 'lib/htimlee/tokenizer/named_character.rb'
+    - 'tmp/**/*.rb'
+
+InternalAffairs/Debug:
+  Enabled: true
 
 Layout/LineLength:
+  Enabled: false
+
+Lint/AssignmentInCondition:
   Enabled: false
 
 Metrics/AbcSize:
@@ -22,5 +32,17 @@ Metrics/MethodLength:
 Metrics/CyclomaticComplexity:
   Enabled: false
 
-Layout/FirstArrayElementIndentation:
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Style/EmptyElse:
+  Enabled: false
+
+Style/YodaCondition:
+  Enabled: false
+
+Style/NumericPredicate:
+  Enabled: false
+
+Style/AsciiComments:
   Enabled: false
