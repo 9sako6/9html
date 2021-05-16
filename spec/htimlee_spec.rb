@@ -1,6 +1,6 @@
-RSpec.describe Qhtml do
+RSpec.describe Htimlee do
   it "has a version number" do
-    expect(Qhtml::VERSION).not_to be nil
+    expect(Htimlee::VERSION).not_to be nil
   end
 
   it "does something useful" do
