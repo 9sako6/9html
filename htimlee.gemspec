@@ -1,8 +1,8 @@
-require_relative 'lib/qhtml/version'
+require_relative 'lib/htimlee/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "qhtml"
-  spec.version       = Qhtml::VERSION
+  spec.name          = "htimlee"
+  spec.version       = Htimlee::VERSION
   spec.authors       = ["9sako6"]
   spec.email         = ["31821663+9sako6@users.noreply.github.com"]
 

@@ -1,3 +1,3 @@
-module Qhtml
+module Htimlee
   VERSION = "0.1.0"
 end

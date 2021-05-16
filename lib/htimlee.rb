@@ -1,6 +1,6 @@
-require "qhtml/version"
+require "htimlee/version"
 
-module Qhtml
+module Htimlee
   class Error < StandardError; end
   # Your code goes here...
 end
