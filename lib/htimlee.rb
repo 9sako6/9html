@@ -1,4 +1,4 @@
-require "htimlee/version"
+require 'htimlee/version'
 
 module Htimlee
   class Error < StandardError; end

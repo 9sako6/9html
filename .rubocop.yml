@@ -1,0 +1,26 @@
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  Exclude:
+    - 'lib/htimlee/tokenizer/named_character.rb'
+
+Layout/LineLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 100
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Layout/FirstArrayElementIndentation:
+  Enabled: false
