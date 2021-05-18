@@ -19,8 +19,6 @@ source_code = <<~SOURCECODE
         CODEPOINTS = {
   #{
     entities_json.map do |character_name, character_entity|
-      # codepoints = character_entity['codepoints'].map
-      # entity = character_entity['codepoints'].pack('U')
       "        '#{character_name}'.freeze => #{character_entity['codepoints']}.freeze,"
     end.join("\n")
   }
