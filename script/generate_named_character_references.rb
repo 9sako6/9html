@@ -29,4 +29,6 @@ source_code = <<~SOURCECODE
   # rubocop:enable all
 SOURCECODE
 
+# rubocop:disable InternalAffairs/Debug
 File.open(OUTPUT_PATH, 'w') { |f| f.puts source_code }
+# rubocop:enable InternalAffairs/Debug
